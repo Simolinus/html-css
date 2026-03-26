@@ -1,0 +1,176 @@
+html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container {
+    backdrop-filter: blur(4px);
+    width: auto;
+    max-width: 70%;
+    margin: auto;
+    background:rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    padding-top: 1px;
+}
+
+.layout {
+    padding-bottom: 1px;
+}
+
+.center {
+    display: block;
+    margin: auto;
+    width: 97%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+p {
+    margin: 20px auto;
+    max-width: 80%;
+    text-align: center;
+    color: white;
+    font-size:larger;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-image: url('cute-cats-pattern-desktop-wallpaper-4k.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: nowrap;
+    max-height: 5em;
+    overflow: auto;
+}
+
+.navigation a {
+    flex: 1 1 auto;
+    text-align: right;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: 800;
+    font-size:x-large;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+.header-image {
+    border-radius: 8px;
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+header {
+    height: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    border-radius: 8px;
+    width: auto;
+    max-width: 70%;
+    margin: auto;
+}
+
+.product-page {
+    margin: 20px auto;
+    max-width: 97%;
+    text-align: left;
+    color: white;
+    font-size:large;
+    margin-bottom: -10px;
+}
+
+.products {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    flex: 1;
+    text-align: center;
+}
+
+.product img {
+    width: 80%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-title {
+    color: white;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.image-text {
+    margin-top: -8px;
+    color: white;
+    font-size: medium;
+    font-weight: 100;
+    font-style: italic;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.product-text{
+    color: white;
+    font-size: medium;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.contact-h1 {
+    text-align: left;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.right {
+    float: right;
+    margin: auto;
+    margin-right: 30px;
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+.contact-info p {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 30px;
+    text-align: left;
+    
+}
+
+.container2 {
+    backdrop-filter: blur(4px);
+    width: auto;
+    max-width: 70%;
+    margin: auto;
+    background:rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    padding-top: 1px;
+    padding-bottom: 9rem;
+}
